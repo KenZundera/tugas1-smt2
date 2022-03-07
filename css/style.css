@@ -29,7 +29,7 @@ body {
   position: relative;
   font-size: 25px;
   background-image: url(../image/gif.gif);
-  background-position: 0px -260px;
+  background-position: center -260px;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -194,7 +194,8 @@ nav ul li a:hover {
 
 .footer {
   background-color: #212121;
-  width: 1264px;
+  /* width: 1264px; */
+  width: 100%;
   margin: 0px 0px;
   border-right: 1px dashed white;
   border-left: 1px dashed white;
