@@ -13,20 +13,8 @@
     <script src="https://kit.fontawesome.com/92333b2848.js" crossorigin="anonymous"></script>
 
     <!-- yang dipakai hanya all.css, all.min.css, solid.css -->
-    <!-- <link rel="stylesheet" href="font-awesome/css/all.css">
-	<link rel="stylesheet" href="font-awesome/css/all.min.css">
-	<link rel="stylesheet" href="font-awesome/css/solid.css"> 
-	<link rel="stylesheet" href="font-awesome/css/brands.css">
-	<link rel="stylesheet" href="font-awesome/css/brands.min.css">
-	<link rel="stylesheet" href="font-awesome/css/fontawesome.css">
-	<link rel="stylesheet" href="font-awesome/css/fontawesome.min.css">
-	<link rel="stylesheet" href="font-awesome/css/regular.css">
-	<link rel="stylesheet" href="font-awesome/css/regular.min.css">
-	<link rel="stylesheet" href="font-awesome/css/solid.min.css">
-	<link rel="stylesheet" href="font-awesome/css/svg-with-js.css">
-	<link rel="stylesheet" href="font-awesome/css/svg-with-js.min.css">
-	<link rel="stylesheet" href="font-awesome/css/v4-shims.css">
-	<link rel="stylesheet" href="font-awesome/css/v4-shims.min.css"> -->
+    <!-- <link rel="stylesheet" href="font-awesome/css/all.css"> -->
+    <link rel="stylesheet" href="../font-awesome/css/all.min.css" />
 
     <!-- untuk Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -69,6 +57,22 @@
 
       .main ul li i {
         margin: 0px 10px 0px 0px;
+      }
+
+      .pp {
+        animation: kedip 1.6s infinite;
+     	}
+
+      @keyframes kedip {
+        0% {
+          filter: drop-shadow(0px 0px 5px #000);
+        }
+        50% {
+          filter: drop-shadow(0px 0px 5px #fff);
+        }
+        100% {
+          filter: drop-shadow(0px 0px 5px #000);
+        }
       }
     </style>
   </head>
@@ -120,7 +124,7 @@
                     </div> -->
 
           <div class="main" style="overflow: unset; height: 100%; padding: 50px 20px; width: 100%">
-			<center><img src="../image/logo.png" alt="Logo" width="300px"></center>
+			<center><img src="../image/logo.png" class="pp" alt="Logo" width="300px"></center>
             <center><h1 font-family: sans-serif;">Contact Us</h1></center>
             <ul style="margin: 30px 0px 0px 20px">
               <li>
